@@ -1,0 +1,18 @@
+#img-bg {
+    background-image: url("../../assets/img/img4.jpg");
+    min-height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.botao-cancelar {
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.botao-cadastrar {
+    padding: 10px 20px;
+    border-radius: 8px;
+}
