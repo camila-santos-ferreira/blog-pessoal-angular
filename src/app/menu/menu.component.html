@@ -15,7 +15,7 @@
       <ul class="navbar-nav mr-auto d-flex align-items-center">
         <li class="nav-item active">
           <img
-            src="../../assets/img/img5.jpg"
+            src="{{foto}}"
             alt="Imagem da usuária"
             width="50px"
             height="px"
@@ -23,7 +23,7 @@
           />
         </li>
         <li class="nav-item pl-3">
-          <p class="m-0 font-weight-bold text-white fs-16">Nome da Usuária</p>
+          <p class="m-0 font-weight-bold text-white fs-16">Olá, {{nome}}!</p>
         </li>
         <li class="nav-item pl-3">
           <a href=""
@@ -34,7 +34,7 @@
       </ul>
       <ul class="navbar-nav ml-auto d-flex align-items-center">
         <li class="nav-item pl-3">
-          <a class="m-0 font-weight-bold text-white fs-16"
+          <a (click)="sair()" class="m-0 font-weight-bold text-white fs-16"
             >Sair <i class="fa fa-sign-out" aria-hidden="true"></i
           ></a>
         </li>
