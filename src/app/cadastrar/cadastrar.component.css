@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 #img-bg {
     background-image: url("https://i.imgur.com/4tV6QHF.jpg");
     min-height: 100vh;
@@ -10,9 +12,30 @@
 .botao-cancelar {
     padding: 10px 20px;
     border-radius: 8px;
+    border-color: #dc3545;
+    color: #dc3545;
+    border-width: 2px;
+}
+
+.botao-cancelar:hover {
+    background-color: #fff2f2;
 }
 
 .botao-cadastrar {
     padding: 10px 20px;
     border-radius: 8px;
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.botao-cadastrar:hover {
+    background-color: #ce2b3b;
+}
+
+.fonte-geral {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fs-32 {
+    font-size: 2.7rem;
 }

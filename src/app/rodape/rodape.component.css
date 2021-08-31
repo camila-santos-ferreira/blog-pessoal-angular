@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 ul.social-network {
     list-style: none;
     padding: 0;
@@ -11,7 +13,7 @@ ul.social-network li {
 }
 
 .fa {
-    font-size: 35px;
+    font-size: 2.3rem;
     padding: 10px;
     color: white;
 }
@@ -20,12 +22,19 @@ ul.social-network li {
     background: #f14355;
 }
 
-.fa-linkedin-square:hover {
-    color: #f8f8f8;
+.cor-texto {
+    color: #fff;
+    text-decoration: none;
 }
 
+.fonte-geral {
+    font-family: 'Poppins', sans-serif;
+}
 
-.fa-github:hover {
-    color: #f8f8f8;
-    ;
+.fs-16 {
+    font-size: 1.1rem;
+}
+
+.fs-12 {
+    font-size: 0.8rem;
 }

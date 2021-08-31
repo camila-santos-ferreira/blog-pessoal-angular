@@ -1,23 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 .fs-32 {
-    font-size: 32pt;
+    font-size: 3.8rem;
 }
 
 .fs-10 {
-    font-size: 10pt;
+    font-size: 1rem;
 }
 
 .bg-inicio {
     background-color: #fff;
 }
 
-.text-color {
+/*.text-color {
     color: #dc3545;
-}
+}*/
 
 .btn-color {
     background-color: #dc3545;
     color: #fff;  
     box-shadow: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    border-width: 2px;
 }
 
 .btn-color:hover {
@@ -30,9 +35,50 @@
     background-color: #fff;
     color: #dc3545;
     border-color: #dc3545;
+    border-radius: 8px;
+    padding: 8px 18px;
+    border-width: 2px;
 }
 
 .btn-color2:hover {
     background-color: #dc3545;
     color: #fff;
+}
+
+.fonte-geral {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color:#212529;
+}
+
+#cor-link {
+    color: #63b3ff;
+}
+
+.btn-cancelar {
+    background-color: #fff;
+    color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 8px;
+    padding: 8px 18px;
+    border-width: 2px;
+}
+
+.btn-publicar {
+    background-color: #dc3545;
+    color: #fff;  
+    box-shadow: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    border-width: 2px;
+}
+
+.btn-cancelar:hover {
+    background-color: #fff2f2;
+}
+
+.btn-publicar:hover {
+    background-color: #ce2b3b;
 }

@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 .fs-16 {
-    font-size: 16pt;
+    font-size: 1.2rem;
 }
 
-.a {
+a {
     cursor: pointer;
+    text-decoration: none;
+}
+
+.fonte-geral {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
 }

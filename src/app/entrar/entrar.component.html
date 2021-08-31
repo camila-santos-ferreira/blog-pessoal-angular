@@ -1,15 +1,15 @@
-<div class="container-fluid">
+<div class="container-fluid fonte-geral">
   <div class="row d-flex align-items-center">
     <div class="col-md-6">
       <div class="row d-flex justify-content-center">
-        <div class="col-md-6">
-          <h1 class="text-center mb-3">Entrar</h1>
+        <div class="col-md-8">
+          <h1 class="text-center mb-3 fs-32">Entrar</h1>
 
           <div class="form-group">
             <label for="usuario">Usuário:</label>
             <input
               [(ngModel)]="usuarioLogin.usuario"
-              class="form-control"
+              class="form-control teste"
               type="text"
               name="usuario"
               id="usuario"
@@ -33,7 +33,7 @@
             <button type="submit" class="btn btn-success botao-entrar" (click)="entrar()">Entrar</button>
           </div>
 
-          <hr class="mt-5 mb-2" />
+          <hr class="mt-4 mb-2" />
           <p class="text-center">Não tem conta? <a href="" routerLink="/cadastrar">Cadastre-se</a></p>
         </div>
       </div>

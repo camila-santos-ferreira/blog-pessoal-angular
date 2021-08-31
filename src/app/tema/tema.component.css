@@ -1,16 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 .bg-tema {
     background-color: #fff;
 }
 
-.text-tema {
+/*.text-tema {
     color: #dc3545;
-}
+}*/
 
 .fs-32 {
-    font-size: 32pt;
+    font-size: 2.7rem;
 }
 
-.fs-18 {
-    font-size: 18pt;
+.fs-16 {
+    font-size: 1rem;
 }
 
+
+.fonte-geral {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-cadastrar {
+    background-color: #dc3545;
+    color: #fff;  
+    box-shadow: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    border-width: 2px;
+}
+
+.btn-cadastrar:hover {
+    background-color: #ce2b3b;
+}

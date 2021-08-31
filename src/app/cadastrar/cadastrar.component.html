@@ -1,12 +1,12 @@
-<div class="container-fluid">
+<div class="container-fluid fonte-geral">
   <div class="row">
     <div class="col-md-6" id="img-bg"></div>
     <div class="col-md-6 mt-5 mb-5">
       <div class="row d-flex justify-content-center">
-        <div class="col-md-10">
-          <h1 class="text-center">Cadastro</h1>
+        <div class="col-md-9">
+          <h1 class="text-center fs-32">Cadastre-se</h1>
 
-          <div class="form-group">
+          <div class="form-group mt-4">
             <label for="nome">Nome:</label>
             <input
               [(ngModel)]="usuario.nome"
@@ -61,7 +61,7 @@
               type="password"
               name="senha"
               id="usuario"
-              placeholder="Sua senha"
+              placeholder="Digite sua senha"
             />
           </div>
 
@@ -87,8 +87,8 @@
           </div>
 
           <div class="d-flex justify-content-center mt-4">
-            <button type="submit" class="btn btn-danger botao-cancelar mr-4" routerLink="/entrar">Cancelar</button>
-            <button type="submit" class="btn btn-success botao-cadastrar" (click)="cadastrar()">Cadastrar</button>
+            <button type="submit" class="btn botao-cancelar mr-4" routerLink="/entrar">Cancelar</button>
+            <button type="submit" class="btn botao-cadastrar" (click)="cadastrar()">Cadastrar</button>
           </div>
         </div>
       </div>
