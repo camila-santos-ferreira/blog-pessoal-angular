@@ -4,6 +4,9 @@ import { InicioComponent } from './inicio/inicio.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { TemaComponent } from './tema/tema.component';
+import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
+import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
+
 
 
 const routes: Routes = [
@@ -11,7 +14,9 @@ const routes: Routes = [
   {path: "entrar", component: EntrarComponent},
   {path: "cadastrar", component: CadastrarComponent},
   {path: "inicio", component: InicioComponent},
-  {path: "tema", component: TemaComponent}
+  {path: "tema", component: TemaComponent},
+  {path: "tema-edit/:id", component: TemaEditComponent},
+  {path: "tema-delete/: id", component: TemaDeleteComponent}
 ];
 
 @NgModule({
