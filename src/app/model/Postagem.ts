@@ -4,7 +4,7 @@ import { Usuario } from "./Usuario"
 export class Postagem {
 
     public id: number
-    public data: Date
+    public date: Date
     public texto: string
     public titulo: string
     public usuario: Usuario
