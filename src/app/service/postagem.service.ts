@@ -19,8 +19,16 @@ export class PostagemService {
       return this.http.get<Postagem[]>("https://blogpessoalcamila.herokuapp.com/postagens/all", this.token)
     }
 
+    // getByIdPostagem(id: number): Observable<Postagem>{
+    //   return this.http.get<Postagem>(`https://blogpessoalcamila.herokuapp.com/postagens/${id}`, this.token)
+    // }
+
     postPostagem(postagem: Postagem): Observable<Postagem>{
       return this.http.post<Postagem>("https://blogpessoalcamila.herokuapp.com/postagens/postar", postagem, this.token)
+    }
+
+    putPostagem(postagem: Postagem): Observable<Postagem>{
+      return this.http.put<Postagem>("https://blogpessoalcamila.herokuapp.com/postagens/atualizar", postagem, this.token)
     }
 
 }
